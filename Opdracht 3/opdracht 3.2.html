@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="text.css" />
+  </head>
+  <body>
+    <form action="" method="get" class="form-example">
+      <label for="name"> voornaam: </label>
+      <input type="text" name="name" id="name" required />
+      <label for="name"> achternaam: </label>
+      <input type="text" name="name" id="name" required />
+      <label for="gender">Geslacht</label>
+      <input type="radio" name="gender" value="male" />Man
+      <input type="radio" name="gender" value="female" />Vrouw
+      <label for="street">Straat</label>
+      <input type="text" name="zipcode" />
+      <label for="zipcode">Postcode</label>
+      <input type="text" name="zipcode" />
+      <label for="country">Land</label>
+      <input type="text" name="country" />
+      <label for="BSN">BSN nummer</label>
+      <input type="text" maxlength="9" id="BSN" />
+      <label for="departure">Datum van vertrek</label>
+      <input type="date" name="departure" min="2022-22-11" />
+      <label for="departure">Datum van terugkomst</label>
+      <input type="date" name="departure" min="2022-26-11" />
+      <label for="travel">Aantal personen</label>
+      <input type="text" max="4" min="0" id="travel" />
+      <input type="submit" value="boek nu" />
+      <label for="email"> voer E-mail in</label>
+      <input type="email" id="email" />
+      <label for="pass">Wachtwoord</label>
+      <input type="password" id="pass" name="password" minlength="8" required />
+      <input type="submit" value="log in" />
+    </form>
+  </body>
+</html>
