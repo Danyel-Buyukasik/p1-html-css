@@ -8,9 +8,16 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  background-image: url(img/hacker.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 500px;
+  background-color: black;
 }
 
 nav {
+  position: fixed;
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -37,3 +44,26 @@ nav a {
 nav img {
   width: 5vw;
 }
+ul {
+  color: rgb(250, 247, 247);
+}
+ol {
+  color: azure;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00a8c7;
+  color: white;
+  text-align: center;
+  height: 5%;
+}
+body {
+  font-family: "Goldman";
+  font-size: 22px;
+}
+p.thick {
+  font-weight: bold;
+ }

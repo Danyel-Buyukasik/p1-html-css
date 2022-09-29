@@ -1,0 +1,11 @@
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+body {
+  background-image: url("./img/hacker.png");
+  background-color: #cccccc;
+}
