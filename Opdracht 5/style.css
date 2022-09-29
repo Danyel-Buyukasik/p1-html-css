@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 20;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+ul {
+  color: rgb(250, 247, 247);
+}
+ol {
+  color: azure;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00a8c7;
+  color: white;
+  text-align: center;
+  height: 5%;
+}
+body {
+  font-family: "Goldman";
+  font-size: 22px;
+}
+p.thick {
+  font-weight: bold;
+}
+body {
+  left: 100px;
+  height: 100vh;
+  background-image: url(../img/img6.png);
+  background-size: cover;
+  background-color: black;
+}
+body {
+  left: 100px;
+  height: 100vh;
+  background-image: url(../img/img6.png);
+  background-size: cover;
+  background-color: black;
+  background-repeat: repeat-x;
+  font-family: "goldman", cursive;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 0px;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: medium;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #631d54;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  font-size: 28px;
+}
+
+img {
+  margin: auto;
+  float: left;
+  border: 20px;
+  padding: 20px;
+}
+
+footer {
+  font-family: "goldman";
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00a8c7;
+  color: white;
+  text-align: center;
+  height: 5%;
+}
