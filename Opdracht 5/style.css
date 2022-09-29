@@ -6,13 +6,6 @@
 html {
   font-size: 62.5%;
 }
-body {
-  margin: 20;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: black;
-  text-align: center;
-}
 
 nav {
   position: fixed;
@@ -48,38 +41,18 @@ ul {
 ol {
   color: azure;
 }
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #00a8c7;
-  color: white;
-  text-align: center;
-  height: 5%;
-}
-body {
-  font-family: "Goldman";
-  font-size: 22px;
-}
 p.thick {
   font-weight: bold;
 }
 body {
   left: 100px;
   height: 100vh;
-  background-image: url(../img/img6.png);
-  background-size: cover;
-  background-color: black;
-}
-body {
-  left: 100px;
-  height: 100vh;
-  background-image: url(../img/img6.png);
+  background-image: url(./img/hackers.gif);
   background-size: cover;
   background-color: black;
   background-repeat: repeat-x;
   font-family: "goldman", cursive;
+  font-size: 22px;
 }
 
 nav {
@@ -137,9 +110,6 @@ img {
 
 footer {
   font-family: "goldman";
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   background-color: #00a8c7;
   color: white;
