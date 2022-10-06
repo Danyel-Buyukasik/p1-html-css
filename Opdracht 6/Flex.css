@@ -1,0 +1,28 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.item1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+.item2 {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.item3 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.item4 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+div {
+  display: flex;
+  flex-direction: row-reverse;
+}
